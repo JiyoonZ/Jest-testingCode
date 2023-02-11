@@ -1,7 +1,7 @@
-import styled from "styled-components";
-import {INPUT} from "../utils/constants";
+import styled from 'styled-components';
+import { INPUT } from '../utils/constants';
 
-export default function TextInput({type, value, onChange, refValue}) {
+export default function TextInput({ type, value, onChange, refValue }) {
   return (
     <Wrapper>
       <InputLabel htmlFor={type}>{type}</InputLabel>
